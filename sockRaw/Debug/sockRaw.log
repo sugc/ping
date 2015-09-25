@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/9/15 9:38:12。
+     1>项目“C:\Users\sugc\Documents\Visual Studio 2013\Projects\sockRaw\sockRaw\sockRaw.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\coding\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sockRaw.cpp
+         sockRaw.cpp
+     1>c:\users\sugc\documents\visual studio 2013\projects\sockraw\sockraw\sockraw.cpp(14): warning C4244: “参数”: 从“DWORD”转换到“WORD”，可能丢失数据
+     1>c:\users\sugc\documents\visual studio 2013\projects\sockraw\sockraw\sockraw.cpp(29): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+     1>c:\users\sugc\documents\visual studio 2013\projects\sockraw\sockraw\sockraw.cpp(27): warning C4101: “src”: 未引用的局部变量
+       Link:
+         C:\coding\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sugc\Documents\Visual Studio 2013\Projects\sockRaw\Debug\sockRaw.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sugc\Documents\Visual Studio 2013\Projects\sockRaw\Debug\sockRaw.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sugc\Documents\Visual Studio 2013\Projects\sockRaw\Debug\sockRaw.lib" /MACHINE:X86 Debug\headers.obj
+         Debug\sockRaw.obj
+         sockRaw.vcxproj -> C:\Users\sugc\Documents\Visual Studio 2013\Projects\sockRaw\Debug\sockRaw.exe
+     1>已完成生成项目“C:\Users\sugc\Documents\Visual Studio 2013\Projects\sockRaw\sockRaw\sockRaw.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.06
